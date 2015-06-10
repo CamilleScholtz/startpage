@@ -7,8 +7,8 @@ $(document).ready(function(){
 		$('.ukraine').attr('style', 'font-weight: 500 !important');
 
 		$('.feedrice').animate({
-			width: '350px',
-			height: '550px',
+			width: '550px',
+			height: '350px',
 			opacity: '1'
 		});
 		$('.feedsyria').animate({
