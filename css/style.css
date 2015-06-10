@@ -77,15 +77,14 @@ body {
 /* Feeds */
 
 .feed {
+	position: absolute;
 	background: #F6F6F3;
 	padding: 30px;
-	margin-top: 30vh;
 	font-size: 22px;
 	line-height: 32px;
-	height: 0px;
+	height: 350px;
 	overflow: hidden;
-	width: 30px;
-	opacity: 0;
+	width: 550px;
 }
 
 .rss-item {
