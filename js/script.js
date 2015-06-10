@@ -6,8 +6,24 @@ $(document).ready(function(){
 		$('.korea').attr('style', 'font-weight: 500 !important');
 		$('.ukraine').attr('style', 'font-weight: 500 !important');
 
+		$('.feedrice').animate({
+			width: '350px',
+			height: '550px',
+			opacity: '1'
+		});
+		$('.feedsyria').animate({
+			width: '100%',
+			opacity: '0'
+		});
+		$('.feedkorea').animate({
+			width: '0%',
+			opacity: '0'
+		});
+		$('.feedukraine').animate({
+			width: '0%',
+			opacity: '0'
+		});
 
-		$( "#feedrice" ).toggle({ effect: "scale", direction: "horizontal" });
 	});
 
 	$('.syria').on('click', function () {
