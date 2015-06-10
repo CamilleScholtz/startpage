@@ -49,8 +49,8 @@ body {
 
 #header {
 	position: fixed;
-	top: 30px;
-	left: 30px;
+	top: 50px;
+	left: 80px;
 	z-index: 9;
 }
 
@@ -62,8 +62,8 @@ body {
 #links {
 	background: #FFFFFF;
 	position: absolute;
-	top: 30px;
-	right: 30px;
+	top: 50px;
+	right: 80px;
 	text-align: right;
 	line-height: 46px;
 	font-size: 28px;
@@ -82,14 +82,16 @@ body {
 	padding: 30px;
 	font-size: 22px;
 	line-height: 32px;
-	height: 350px;
+	top: 170px;
+	left: 370px;
+	height: calc(100vh - 400px);
 	overflow: hidden;
-	width: 550px;
+	width: calc(100vw - 800px);
 }
 
 .rss-item {
 	margin-bottom: 32px;
-	list-style-type: georgian !important;
+	list-style-type: cjk-ideographic !important;
 }
 
 .rss-item a {

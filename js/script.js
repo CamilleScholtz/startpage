@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-	$('.feedrice').hide({effect: 'clip'});
-	$('.feedsyria').hide({effect: 'clip'});
-	$('.feedkorea').hide({effect: 'clip'});
-	$('.feedukraine').hide({effect: 'clip'});
+	$('.feedrice').hide();
+	$('.feedsyria').hide();
+	$('.feedkorea').hide();
+	$('.feedukraine').hide();
 
 	$('.rice').on('click', function () {
 		$('.rice').attr('style', 'font-weight: 600 !important');
@@ -11,10 +11,11 @@ $(document).ready(function(){
 		$('.korea').attr('style', 'font-weight: 500 !important');
 		$('.ukraine').attr('style', 'font-weight: 500 !important');
 
-		$('.feedrice').show({effect: 'clip'});
 		$('.feedsyria').hide({effect: 'clip'});
 		$('.feedkorea').hide({effect: 'clip'});
 		$('.feedukraine').hide({effect: 'clip'});
+
+		$('.feedrice').delay('650').show({effect: 'clip'});
 	});
 
 	$('.syria').on('click', function () {
@@ -24,9 +25,10 @@ $(document).ready(function(){
 		$('.ukraine').attr('style', 'font-weight: 500 !important');
 
 		$('.feedrice').hide({effect: 'clip'});
-		$('.feedsyria').show({effect: 'clip'});
 		$('.feedkorea').hide({effect: 'clip'});
 		$('.feedukraine').hide({effect: 'clip'});
+
+		$('.feedsyria').delay('650').show({effect: 'clip'});
 	});
 
 	$('.korea').on('click', function () {
@@ -37,8 +39,9 @@ $(document).ready(function(){
 
 		$('.feedrice').hide({effect: 'clip'});
 		$('.feedsyria').hide({effect: 'clip'});
-		$('.feedkorea').show({effect: 'clip'});
 		$('.feedukraine').hide({effect: 'clip'});
+
+		$('.feedkorea').delay('650').show({effect: 'clip'});
 	});
 
 	$('.ukraine').on('click', function () {
@@ -50,7 +53,8 @@ $(document).ready(function(){
 		$('.feedrice').hide({effect: 'clip'});
 		$('.feedsyria').hide({effect: 'clip'});
 		$('.feedkorea').hide({effect: 'clip'});
-		$('.feedukraine').show({effect: 'clip'});
+
+		$('.feedukraine').delay('650').show({effect: 'clip'});
 	});
 
 });
