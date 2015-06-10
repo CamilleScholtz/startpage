@@ -12,15 +12,18 @@ $(document).ready(function(){
 			opacity: '1'
 		});
 		$('.feedsyria').animate({
-			width: '100%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedkorea').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedukraine').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 
@@ -33,19 +36,23 @@ $(document).ready(function(){
 		$('.ukraine').attr('style', 'font-weight: 500 !important');
 
 		$('.feedrice').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedsyria').animate({
-			width: '100%',
+			width: '550px',
+			height: '350px',
 			opacity: '1'
 		});
 		$('.feedkorea').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedukraine').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 	});
@@ -58,19 +65,23 @@ $(document).ready(function(){
 
 
 		$('.feedrice').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedsyria').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedkorea').animate({
-			width: '100%',
+			width: '550px',
+			height: '350px',
 			opacity: '1'
 		});
 		$('.feedukraine').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 	});
@@ -83,19 +94,23 @@ $(document).ready(function(){
 
 
 		$('.feedrice').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedsyria').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedkorea').animate({
-			width: '0%',
+			width: '30px',
+			height: '0px',
 			opacity: '0'
 		});
 		$('.feedukraine').animate({
-			width: '100%',
+			width: '550px',
+			height: '350px',
 			opacity: '1'
 		});
 	});
